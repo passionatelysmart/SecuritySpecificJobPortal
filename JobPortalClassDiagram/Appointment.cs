@@ -10,12 +10,29 @@ namespace JobPortalClassDiagram
     /// </summary>
     public class Appointment
     {
-        /// <summary>The user identifier</summary>
-        public Guid UserId;
+        /// <summary>
+        /// The identifier
+        /// </summary>
+        public Guid Id;
 
         /// <summary>
-        /// The password
+        /// The applicant identifier
         /// </summary>
-        public Guid Password;
+        public Guid ApplicantId;
+
+        /// <summary>
+        /// The advertiser identifier
+        /// </summary>
+        public Guid AdvertiserId;
+
+        /// <summary>
+        /// The appointment date
+        /// </summary>
+        public DateTime AppointmentDate;
+
+        /// <summary>
+        /// The venue
+        /// </summary>
+        public string Venue;
     }
 }

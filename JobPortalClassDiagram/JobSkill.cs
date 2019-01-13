@@ -9,6 +9,10 @@ namespace JobPortalClassDiagram
     /// 
     /// </summary>
     public class JobSkill : Skill
-    {        
+    {
+        /// <summary>
+        /// The job identifier
+        /// </summary>
+        public Guid JobId;
     }
 }

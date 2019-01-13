@@ -1,14 +1,15 @@
 ﻿/// <summary>
-/// Skill
+/// MessageType
 /// </summary>
 namespace JobPortalClassDiagram
 {
     using System;
+    using System.Net.Mail;
 
     /// <summary>
     /// 
     /// </summary>
-    public class Skill
+    public class MessageType
     {
         /// <summary>
         /// The identifier

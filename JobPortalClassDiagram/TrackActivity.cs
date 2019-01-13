@@ -1,5 +1,5 @@
 ﻿/// <summary>
-/// JobApplication
+/// UserType
 /// </summary>
 namespace JobPortalClassDiagram
 {
@@ -9,12 +9,22 @@ namespace JobPortalClassDiagram
     /// <summary>
     /// 
     /// </summary>
-    public class JobApplication
+    public class TrackActivity
     {
         /// <summary>
         /// The identifier
         /// </summary>
         public Guid Id;
+
+        /// <summary>
+        /// The event created date
+        /// </summary>
+        public DateTime EventCreatedDate;
+
+        /// <summary>
+        /// The job identifier
+        /// </summary>
+        public Guid JobId;
 
         /// <summary>
         /// The applicant identifier
@@ -27,18 +37,23 @@ namespace JobPortalClassDiagram
         public Guid AdvertiserId;
 
         /// <summary>
-        /// The skills
+        /// The job application identifier 
         /// </summary>
-        public List<Guid> Skills;
+        public Guid JobApplicationId;
 
         /// <summary>
-        /// The job applied date
+        /// The job match identifier
         /// </summary>
-        public DateTime JobAppliedDate;
+        public Guid JobMatchId;
 
         /// <summary>
-        /// The additional note
+        /// The event
         /// </summary>
-        public string AdditionalNote;
+        public string EventDetails;
+
+        /// <summary>
+        /// The activity type
+        /// </summary>
+        public Guid ActivityType;
     }
 }

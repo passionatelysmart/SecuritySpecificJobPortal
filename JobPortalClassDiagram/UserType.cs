@@ -4,18 +4,27 @@
 namespace JobPortalClassDiagram
 {
     using System;
+    using System.Collections.Generic;
 
     /// <summary>
     /// 
     /// </summary>
     public class UserType
     {
-        /// <summary>The user identifier</summary>
+        /// <summary>
+        /// The identifier
+        /// </summary>
+        public Guid Id;
+
+        /// <summary>
+        /// The user identifier
+        /// </summary>
         public Guid UserId;
 
         /// <summary>
-        /// The password
+        /// The user actions
         /// </summary>
-        public Guid Password;
+        public List<Guid> UserActions;
+       
     }
 }

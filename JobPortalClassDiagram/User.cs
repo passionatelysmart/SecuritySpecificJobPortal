@@ -19,20 +19,28 @@ namespace JobPortalClassDiagram
         /// <summary>
         /// The password
         /// </summary>
-        public Guid Password;
+        public string Password;
 
         /// <summary>
         /// The username
         /// </summary>
         public string Username;
 
-        public List<Skill> Skills;
+        public List<Guid> Skills;
 
         /// <summary>
         /// The user type
         /// </summary>
-        public UserType UserType;
+        public Guid UserType;
 
+        /// <summary>
+        /// The user actions
+        /// </summary>
+        public List<Guid> UserActions;
 
+        /// <summary>
+        /// The resume
+        /// </summary>
+        public object Resume;          
     }
 }

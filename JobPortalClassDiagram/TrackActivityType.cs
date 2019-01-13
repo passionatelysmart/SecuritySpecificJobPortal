@@ -1,14 +1,15 @@
 ﻿/// <summary>
-/// Skill
+/// TrackActivityType
 /// </summary>
 namespace JobPortalClassDiagram
 {
     using System;
+    using System.Collections.Generic;
 
     /// <summary>
     /// 
     /// </summary>
-    public class Skill
+    public class TrackActivityType
     {
         /// <summary>
         /// The identifier
@@ -16,13 +17,8 @@ namespace JobPortalClassDiagram
         public Guid Id;
 
         /// <summary>
-        /// The code
+        /// The type
         /// </summary>
-        public string Code;
-
-        /// <summary>
-        /// The description
-        /// </summary>
-        public string Description;
+        public string Type;       
     }
 }

@@ -1,82 +1,105 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Alphabetical" MembersFormat="NameAndType">
   <Class Name="JobPortalClassDiagram.Appointment">
-    <Position X="11.75" Y="1.75" Width="1.5" />
+    <Position X="16.5" Y="0.5" Width="2.25" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <HashCode>AAACAAAAAIAAAAAAAAAAAIAAAAgAQAAAAAAAAAAAAAA=</HashCode>
       <FileName>Appointment.cs</FileName>
       <NewMemberFileName>User.cs</NewMemberFileName>
     </TypeIdentifier>
   </Class>
   <Class Name="JobPortalClassDiagram.Job">
-    <Position X="13.5" Y="1.75" Width="1.5" />
+    <Position X="9.5" Y="0.5" Width="2" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <HashCode>EAACAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAAAAAACA=</HashCode>
       <FileName>Job.cs</FileName>
       <NewMemberFileName>User.cs</NewMemberFileName>
     </TypeIdentifier>
   </Class>
   <Class Name="JobPortalClassDiagram.JobApplication">
-    <Position X="15.5" Y="4.75" Width="1.5" />
+    <Position X="12.25" Y="0.5" Width="2.25" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <HashCode>EAQCAAAAAAAAAAAAAAAAAIAAEAAAQAAAAAAAAAAAAAA=</HashCode>
       <FileName>JobApplication.cs</FileName>
       <NewMemberFileName>User.cs</NewMemberFileName>
     </TypeIdentifier>
   </Class>
   <Class Name="JobPortalClassDiagram.JobMatch">
-    <Position X="11.75" Y="3.25" Width="1.5" />
+    <Position X="11" Y="3" Width="2" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <HashCode>EAACAAAAAAAAAAAACAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>JobMatch.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="JobPortalClassDiagram.JobSkill">
-    <Position X="7" Y="3.75" Width="1.5" />
+    <Position X="4.25" Y="2.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>JobSkill.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="JobPortalClassDiagram.Message">
-    <Position X="13.5" Y="3.25" Width="1.5" />
+  <Class Name="JobPortalClassDiagram.MessageType">
+    <Position X="13.25" Y="5.75" Width="2" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAAAAAAACAAAAAAAAAAA=</HashCode>
-      <FileName>Message.cs</FileName>
+      <HashCode>AAACAAAAAAAgAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MessageType.cs</FileName>
+      <NewMemberFileName>Message.cs</NewMemberFileName>
     </TypeIdentifier>
   </Class>
   <Class Name="JobPortalClassDiagram.Skill">
-    <Position X="8.75" Y="1" Width="1.5" />
+    <Position X="5.25" Y="0.5" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAACAAAAAAAgAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Skill.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="JobPortalClassDiagram.User">
-    <Position X="4.75" Y="0.5" Width="2.25" />
+    <Position X="1" Y="0.5" Width="2.5" />
     <TypeIdentifier>
-      <HashCode>EAACAAAAAAAAAAAAAQAAAAAAAAAACAACAAAAAAAAAAA=</HashCode>
+      <HashCode>EAACAAAAAAAAAAAAAQAAAAAAAAIACAACAAAAAAgAAAA=</HashCode>
       <FileName>User.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="JobPortalClassDiagram.UserAction">
-    <Position X="11.75" Y="4.75" Width="1.5" />
+    <Position X="1.25" Y="5" Width="2.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <HashCode>AAACAAAAAAAgAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>UserAction.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="JobPortalClassDiagram.UserSkill">
-    <Position X="9.5" Y="3.75" Width="1.5" />
+    <Position X="6.5" Y="2.5" Width="1.75" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
       <FileName>UserSkill.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="JobPortalClassDiagram.UserType">
-    <Position X="13.75" Y="4.75" Width="1.5" />
+  <Class Name="JobPortalClassDiagram.TrackActivity">
+    <Position X="16.5" Y="3" Width="2.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <HashCode>ABASAAAAAAAACAAAAAAAAIAAAAAAQAAAAAAAIIgAAAA=</HashCode>
+      <FileName>TrackActivity.cs</FileName>
+      <NewMemberFileName>UserType.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JobPortalClassDiagram.Message">
+    <Position X="10.5" Y="5.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AgACAAAAAAAgAAAAAIAAAAAAAAAIAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Message.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JobPortalClassDiagram.TrackActivityType">
+    <Position X="16.5" Y="6" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>TrackActivityType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JobPortalClassDiagram.UserType">
+    <Position X="1" Y="3" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAgAAAIAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>UserType.cs</FileName>
     </TypeIdentifier>
   </Class>

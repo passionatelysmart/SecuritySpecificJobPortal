@@ -10,12 +10,9 @@ namespace JobPortalClassDiagram
     /// </summary>
     public class UserSkill : Skill
     {
-        /// <summary>The user identifier</summary>
-        public Guid UserId;
-
         /// <summary>
-        /// The password
+        /// The applicant identifier
         /// </summary>
-        public Guid Password;
+        public Guid ApplicantId;       
     }
 }

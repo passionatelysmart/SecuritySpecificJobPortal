@@ -10,12 +10,19 @@ namespace JobPortalClassDiagram
     /// </summary>
     public class UserAction
     {
-        /// <summary>The user identifier</summary>
-        public Guid UserId;
+        /// <summary>
+        /// The identifier
+        /// </summary>
+        public Guid Id;
 
         /// <summary>
-        /// The password
+        /// The code
         /// </summary>
-        public Guid Password;
+        public string Code;
+
+        /// <summary>
+        /// The description
+        /// </summary>
+        public string Description;
     }
 }
