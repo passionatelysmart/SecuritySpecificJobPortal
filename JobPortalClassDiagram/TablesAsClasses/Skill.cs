@@ -24,5 +24,10 @@ namespace JobPortalClassDiagram
         /// The description
         /// </summary>
         public string Description;
+
+        /// <summary>
+        /// The skill type
+        /// </summary>
+        public Guid Type;
     }
 }

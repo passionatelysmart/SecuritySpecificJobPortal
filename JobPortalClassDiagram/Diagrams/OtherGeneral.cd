@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Alphabetical" MembersFormat="NameAndType">
+  <Class Name="JobPortalClassDiagram.MessageType">
+    <Position X="3.25" Y="1" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAgAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MessageType.cs</FileName>
+      <NewMemberFileName>Message.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JobPortalClassDiagram.TrackActivity">
+    <Position X="6.25" Y="1" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>ABASAAAAAAAACAAAAAAAAIAAAAAAQAAAAAAAIIgAAAA=</HashCode>
+      <FileName>TrackActivity.cs</FileName>
+      <NewMemberFileName>UserType.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JobPortalClassDiagram.Message">
+    <Position X="0.5" Y="1" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AgACAAAAAAAgAAAAAIAAAAAAAAAIAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Message.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JobPortalClassDiagram.TrackActivityType">
+    <Position X="9.5" Y="1" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>TrackActivityType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

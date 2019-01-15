@@ -9,7 +9,7 @@ namespace JobPortalClassDiagram
     /// <summary>
     /// 
     /// </summary>
-    public class User
+    public class Team
     {
         /// <summary>
         /// The user identifier
@@ -19,28 +19,16 @@ namespace JobPortalClassDiagram
         /// <summary>
         /// The password
         /// </summary>
-        public string Password;
+        public string Name;
 
         /// <summary>
-        /// The username
+        /// The team created date
         /// </summary>
-        public string Username;
-
-        public List<Guid> Skills;
+        public string TeamCreatedDate;
 
         /// <summary>
-        /// The user type
+        /// The user ids
         /// </summary>
-        public Guid UserType;
-
-        /// <summary>
-        /// The user actions
-        /// </summary>
-        public List<Guid> UserActions;
-
-        /// <summary>
-        /// The resume
-        /// </summary>
-        public object Resume;          
+        public List<Guid> UserIds;        
     }
 }

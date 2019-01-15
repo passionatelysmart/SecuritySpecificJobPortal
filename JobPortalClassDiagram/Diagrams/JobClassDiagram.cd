@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Alphabetical" MembersFormat="NameAndType">
+  <Class Name="JobPortalClassDiagram.Appointment">
+    <Position X="16.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAIAAAAAAAAAAAIAAAAgAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Appointment.cs</FileName>
+      <NewMemberFileName>User.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JobPortalClassDiagram.Job">
+    <Position X="0.5" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EAACEAAAAAIgAAAAAAIAAIAAAAAAAgAAAQAAAEAAiAA=</HashCode>
+      <FileName>Job.cs</FileName>
+      <NewMemberFileName>User.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JobPortalClassDiagram.JobApplication">
+    <Position X="6.25" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>EAQCAAAAAAAAAAAAAAAAAIAAEAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>JobApplication.cs</FileName>
+      <NewMemberFileName>User.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JobPortalClassDiagram.JobMatch">
+    <Position X="3.5" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EAACAAAAAAAAAAAACAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>JobMatch.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JobPortalClassDiagram.TrackActivity">
+    <Position X="16.5" Y="3" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>ABASAAAAAAAACAAAAAAAAIAAAAAAQAAAAAAAIIgAAAA=</HashCode>
+      <FileName>TrackActivity.cs</FileName>
+      <NewMemberFileName>UserType.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JobPortalClassDiagram.TrackActivityType">
+    <Position X="16.5" Y="6" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>TrackActivityType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
